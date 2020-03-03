@@ -1,0 +1,335 @@
+
+/**{padding: 0px;margin: 0px;width:} */
+body{}
+
+
+
+@font-face {
+   font-family: "JF Flat Regular";
+    src: url('../fonts/JF-Flat-regular.eot');
+    src: url('../fonts/JF-Flat-regular.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/JF-Flat-regular.svg#JF Flat Regular') format('svg'),
+    url('../fonts/JF-Flat-regular.woff') format('woff'),
+    url('../fonts/JF-Flat-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+ /*    start header style    */
+ @keyframes example {
+   0% {color: #a60032; left: 0px; top: 0px ;}
+  25% {color: #eeef83; left: 900px; top: 0px ;}
+  50% {color: #00add8; left: 900px; top: 5px ;}
+  75% {color: #6decad; left: 0px; top: 5px ;}
+  100% {color: #ffffff; left: 0px; top: 0px ;}
+}
+
+.wel {
+  Width:300px;
+  Height:50px;
+  text-shadow:2px 2px 2px ;
+  Position:relative;
+  color: #a60032;
+  Animation-name: example;
+  Animation-duration: 6s;
+ Animation-delay: 1s;
+}
+
+
+ .header {padding:0px;margin:0px;}
+  .navbar-nav {float:right;margin-right:150px}
+ .navbar-default{background-color:#a60032;margin-bottom: 0px;font-family:JF Flat Regular}
+ .navbar-default .navbar-nav > li >.active{margin-top:5px }
+ .navbar-default .navbar-nav > li > a{color:#43c2ea;
+                       font-weight: bold;
+                       margin-top: 0px;
+                       margin-left: 20px;
+                       font-size: 15px
+                       
+ }
+.navbar-default .navbar-nav > li > a:hover{padding-left}
+
+   .logo { height:200px;
+    background-image:url('../img/logo2.jpg');
+            background-size:contain;
+            background-repeat: no-repeat;
+            background-position:center;
+            margin-left: 3px;
+           margin-right: 11px
+}
+
+.logo2{background:url('../img/about-us4.jpg') no-repeat center center scroll;
+-webkit-background-size:cover;
+-o-background-size:cover;
+-moz-background-size:cover;
+background-size:cover;
+min-height:550px;
+margin:0px;
+padding:0px}
+ /*   end header style    */
+
+  /*   start management style   
+  .manage
+.manage h2{text-align:center;color:#006699;margin-bottom: 10px;font-family: JF Flat Regular}
+.manage .mana {background-image:url('../img/13.png') no-repeat top center; }*/
+
+
+ /*   end management style    */
+
+/* start study*/
+.shaik{}
+.shaik h2{text-align:center; color:#006699;margin-bottom:30px;font-family: JF Flat Regular}
+.shaik .content{background-color:#ccc;overflow:hidden}
+.shaik .content .row .first{font-family: JF Flat Regular/*width:20%;float:left;*/}
+.shaik .content .row  .first img{border-radius:50%;height:150px;width:150px}
+.shaik .content .row  .first img:hover{opacity: .6; transform: scale3d(2,2,2);transition: all 3s}
+.shaik .content .row  .first strong{
+  font-family: JF Flat Regular;
+  color: #7b104d;
+  font-weight: bold;
+}
+.shaik .content .row  .first span{
+  font-family: JF Flat Regular;
+  color:chocolate;
+  font-weight: bold;
+ 
+}
+
+
+
+
+/* start sstudy*/
+
+
+/*slide styles start*/
+
+h2{text-align: center;color:#006699;margin-bottom: 10px;font-family: JF Flat Regular;font-weight:bold;}
+.main-slide{overflow:hidden;display:flex;}
+ .main-slide .sub-slide{background-color: #fff;
+  width:400px;
+  height:400px;
+  margin:10px;
+  margin-left:;
+  padding: 0;
+  overflow: hidden;
+  border-radius:10px
+}
+
+@keyframes slide {
+    
+    0% {
+        left: 0;
+    }
+    
+     20% {
+        left: 0;
+    }
+     25% {
+        left: -100%;
+    }
+     45% {
+        left: -100%;
+    }
+     50% {
+        left: -200%;
+    }
+     70% {
+        left: -200%
+    }
+     75% {
+        left: -300%
+    }
+     95% {
+        left: -300%
+    }
+     100% {
+        left: -400%
+    }
+}
+
+
+
+.main-slide .sub-slide .slider {
+    overflow: hidden;
+    position:relative;
+    display:inline
+
+}
+
+ .main-slide .sub-slide .slider .overlay {
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+    background-color:rgba(0, 0, 0, 0.5);
+    width:100%;
+    height:100%;
+    z-index:1
+}
+.main-slide .sub-slide .slider figure img {
+  border-radius:5px;
+    width:20%;
+    float:left
+}
+ .main-slide .sub-slide .slider figure {
+    position:relative;
+    width:500%;
+    margin:0;
+    left:0;
+    animation: 20s slide infinite
+} 
+
+
+/*slide styles end*/
+
+
+/* ABOUT-US  STYLES  */
+
+/* start abous-us style  */
+.about-us{padding:0px;margin:20px;overflow: hidden;margin-top:0px}
+.about-us h2{text-align:center;color:#006699;font-family: JF Flat Regular;font-weight:bold}                     
+.about-us .container {
+                       background-color:#eee;
+                       border-right: 5px solid #347937;
+                       border-radius:5px; 
+                       border-left:5px solid #347937;
+                       margin-top: 10px; 
+                       font-family: JF Flat Regular
+                     }
+.about-us .container .lead{
+  direction: rtl
+}                     
+
+
+/* end abous-us style  */
+ 
+
+
+ 
+/* start student*/
+.maincard{padding:0px;margin:0px;overflow:hidden}
+.student{padding:10px;padding-bottom:}
+.student h2{text-align: center;color:#006699;margin-bottom: 10px;font-family: JF Flat Regular;font-weight:bold}
+.student-col .card
+{
+
+width:200px;
+height:300px;
+margin: 50px auto;
+position: relative;
+color: #fff
+
+}
+
+.student-col .card .frent
+{
+  width: 93.5%;
+  height: 100%;
+  background-color:#eee;
+  border-radius: 10px 0px;
+  border: 1px solid #ccc;
+  font-family: arial,JF Flat Regular;
+  text-align: center
+ }
+.student-col .card header {
+background-color: #006699;
+    width: 93.5%;
+    height: 70px;
+    border-radius: 10px 0px ;
+    margin-bottom: 55px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 14px
+}
+
+.student-col .card header img{border-radius:50%;height:100px; width:100px}
+
+.student-col .card header img:hover{opacity: 0.6px ; transform: scale3d(2,2,2); transition: all 1s }
+
+.student-col .card section{margin-top:100px}
+
+ .student-col .card section strong{float: right; text-decoration: none; line-height: 1; margin-right: 6px;font-weight: bold; color: #006699;font-family: JF Flat Regular}
+
+ .student-col .card section span{font-family: JF Flat Regular;color:#888;text-align:center}
+/* end student*/
+
+
+/* start form*/
+.container h1{color:#006699;font-family: JF Flat Regular;font-weight: bold;}
+.container .reg{font-family: JF Flat Regular}
+.container .reg form{
+  margin:20px auto;
+    width: 50%;
+}
+.container .reg form input{
+  text-align: right;
+  font-weight: bold;
+  font-size: 14px;
+  background-color: #ffffff;
+  color: #888;
+  padding: 10px ;
+  border:0px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+.container .reg form a{
+  text-decoration:none;
+   font-weight: bold;
+   font-size:20px;
+}
+.container .reg form button{
+  padding: 10px 20px; 
+  border-radius:10px;
+  background-color: #ff335a;
+  float: right;
+ margin-right:;
+ color: #fff;
+ margin:20xp auto;
+ 
+ }
+/*.container .reg form textarea{
+  background-color: #ffffff ;
+  color: #888;
+  padding: 10px ;
+  border: 0px;
+  width: 50%;
+  margin-bottom: 10px;
+  height: 300px;
+  text-align: right;
+  font-weight: bold;
+  border-radius: 10px
+}*/
+
+
+/* end form*/
+
+
+/* start footer*/
+.footer{background-color:#006699;color: #eee;padding:40px 0px; overflow: hidden;padding-right: 10px;border-radius:10px; font-family: JF Flat Regular;margin-top:10px}
+
+.footer .col{ width: 33.33333333333333% ;float:right;text-align:right;overflow: hidden}
+.footer .col p:nth-of-type(1){line-height:2}
+.footer .col:nth-of-type(2){text-align: center}
+.footer .col h2:nth-of-type(2){text-align: right}
+
+.footer .col h2{color: #Fff;}
+.footer .col p{direction: rtl; overflow: hidden; font-weight: bold}
+.footer .col ul{list-style: none} 
+.footer .col ul li a{line-height: 2;font-weight: bold;text-decoration: none;color: #fff;font-size: 19px}
+.footer .col span input{padding:5px; border: 1px solid #fff;border-radius:5px; padding-right: 30px; margin-top: 15px}
+.footer .col span input .placeholder{font-weight:bold}
+.footer .col span a{text-decoration: none;padding:5px;  padding-right:20px;background-color: #5d5d5d;color:#fff;text-align:center;border-radius:5px}
+.footer .col i{display: inline-block; color: #6c6c6c;margin-right: 30px;width: 40px ; margin-top: 15px}
+.footer .col i:hover{color: #fff;opacity: .6; transform: scale3d(2,2,2); transition: all 1s}
+ .copyright{background-color:#fdf9fd ;color:#888;padding: 10px; overflow:  hidden;text-align: center; font-weight: bold; margin-top: 40px;margin-right: -11px}
+ .copoyright strong{margin-right:-8px}
+ .copyright span{margin-right:}
+/* start footer*/
+
+
+/* start my fremwork*/
+.clearfix{clear: both}
+
+/* end my fremwork */
